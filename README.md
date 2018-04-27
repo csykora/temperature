@@ -47,6 +47,11 @@ Examples:
 - python temperature_convert 84.2 Fahrenheit Rankine 543.5
 - python temperature_convert 32 Fahrenheit Celcius 0
 
+The program will return one of the following outputs:
+- correct: The input temperature matches the student response
+- incorrect: The temperature conversion did not match the student response
+- invalid: The parameters provided when running the command don't match the proper format
+
 ### Testing
 
 The Python `unittest` framework is used to run the tests for this project. The tests can be found in the `test` folder, follow these steps to run the tests:
